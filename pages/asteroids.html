@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астероиды и кометы | Космические тела</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="asteroids">
+               <video id="bg-video" autoplay loop muted playsinline style="position:fixed;z-index:-1;left:0;top:0;width:100vw;height:100vh;object-fit:cover;"></video>
+    <header class="header">
+        <div class="header-inner">
+            <h1>Космические тела</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="planets.html">Планеты</a></li>
+                    <li><a href="stars.html">Звёзды</a></li>
+                    <li><a href="galaxies.html">Галактики</a></li>
+                    <li><a href="asteroids.html" class="active">Астероиды и кометы</a></li>
+                    <li><a href="satellites.html">Спутники</a></li>
+                    <li><a href="blackholes.html">Чёрные дыры</a></li>
+                    <li><a href="exploration.html">Космические исследования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Астероиды и кометы</h2>
+            <p>
+                Астероиды и кометы — это малые тела Солнечной системы, которые несут в себе информацию о её ранней истории. Астероиды в основном состоят из камня и металлов, а кометы — изо льда, пыли и органических веществ. Изучение этих объектов помогает понять процессы формирования планет и происхождение воды и органики на Земле.
+            </p>
+        </section>
+        <section>
+            <h2>Известные астероиды</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 24px;">
+                <div class="card-news asteroid-card" data-asteroid="ceres" tabindex="0">
+                    <img src="../img/Ceresintruecolor.png" alt="Церера" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Церера</div>
+                        <div class="card-news-desc">Крупнейший астероид и карликовая планета в поясе астероидов.</div>
+                    </div>
+                </div>
+                <div class="card-news asteroid-card" data-asteroid="vesta" tabindex="0">
+                    <img src="../img/Vesta-snimok-kosmicheskogo-apparata-Dawn.jpg" alt="Веста" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Веста</div>
+                        <div class="card-news-desc">Второй по размеру астероид, имеет дифференцированное строение.</div>
+                    </div>
+                </div>
+                <div class="card-news asteroid-card" data-asteroid="pallas" tabindex="0">
+                    <img src="../img/images.jpg" alt="Паллада" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Паллада</div>
+                        <div class="card-news-desc">Третий по массе астероид, орбита сильно наклонена.</div>
+                    </div>
+                </div>
+                <div class="card-news asteroid-card" data-asteroid="eros" tabindex="0">
+                    <img src="../img/eros2_near.jpg" alt="Эрос" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Эрос</div>
+                        <div class="card-news-desc">Один из крупнейших околоземных астероидов, исследован NEAR Shoemaker.</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:24px; font-size:1.08rem; color:#333;">
+                <b>Пояс астероидов</b> — область между орбитами Марса и Юпитера, где сосредоточено большинство астероидов.<br>
+                <b>Троянцы</b> — астероиды, движущиеся по орбите планеты в точках Лагранжа (например, у Юпитера и Марса).<br>
+                <b>Околоземные астероиды</b> — пересекают орбиту Земли, потенциально опасны для нашей планеты.<br>
+                <b>Карликовые планеты</b> — крупные астероиды, обладающие сферической формой (пример: Церера).
+            </div>
+        </section>
+        <section>
+            <h2>Известные кометы</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 24px;">
+                <div class="card-news comet-card" data-comet="halley" tabindex="0">
+                    <img src="../img/td41yl6mvnprbe2.jpg" alt="Комета Галлея" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Комета Галлея</div>
+                        <div class="card-news-desc">Самая известная короткопериодическая комета, видна с Земли каждые 76 лет.</div>
+                    </div>
+                </div>
+                <div class="card-news comet-card" data-comet="hale-bopp" tabindex="0">
+                    <img src="../img/171405536711613588.jpg" alt="Комета Хейла-Боппа" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Комета Хейла-Боппа</div>
+                        <div class="card-news-desc">Одна из самых ярких комет XX века, наблюдалась в 1997 году.</div>
+                    </div>
+                </div>
+                <div class="card-news comet-card" data-comet="67p" tabindex="0">
+                    <img src="../img/resize.webp" alt="Комета Чурюмова-Герасименко" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Комета Чурюмова-Герасименко</div>
+                        <div class="card-news-desc">Известна миссией Rosetta, впервые исследована зондом на орбите.</div>
+                    </div>
+                </div>
+                <div class="card-news comet-card" data-comet="neowise" tabindex="0">
+                    <img src="../img/567589w_1595241829.jpg" alt="Комета NEOWISE" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Комета NEOWISE</div>
+                        <div class="card-news-desc">Яркая комета, наблюдавшаяся в 2020 году невооружённым глазом.</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:24px; font-size:1.08rem; color:#333;">
+                <b>Короткопериодические кометы</b> — возвращаются к Солнцу за десятки или сотни лет (например, комета Галлея).<br>
+                <b>Долгопериодические кометы</b> — их орбиты могут занимать тысячи и миллионы лет.<br>
+                <b>Кометное ядро</b> — твёрдая часть, состоящая из льда и пыли.<br>
+                <b>Кома</b> — облако газа и пыли вокруг ядра, образуется при приближении к Солнцу.<br>
+                <b>Хвост</b> — вытягивается от Солнца под действием солнечного ветра, может достигать миллионов километров.
+            </div>
+        </section>
+        <section>
+            <h2>Строение астероида и кометы</h2>
+            <ul class="section-list">
+                <li><b>Ядро астероида</b> — твёрдая каменистая или металлическая часть, может быть пористой или монолитной.</li>
+                <li><b>Ядро кометы</b> — смесь льда, пыли и органики, часто имеет неправильную форму.</li>
+                <li><b>Кома</b> — временная атмосфера кометы, образуется при испарении льда.</li>
+                <li><b>Хвост</b> — состоит из ионов и пыли, всегда направлен от Солнца.</li>
+                <li><b>Реголит</b> — слой пыли и мелких обломков на поверхности астероидов.</li>
+            </ul>
+        </section>
+        <section style="margin: 0;">
+            <h2>Интересные факты</h2>
+            <ul class="section-list">
+                <li>В поясе астероидов между Марсом и Юпитером — сотни тысяч объектов, но их суммарная масса меньше массы Луны.</li>
+                <li>Кометы — "грязные снежки" Солнечной системы, их хвост может быть длиной до 100 млн км.</li>
+                <li>Многие миссии NASA и ESA исследовали астероиды и кометы (NEAR, Dawn, Rosetta, OSIRIS-REx, Hayabusa2).</li>
+                <li>Падение крупных астероидов могло влиять на эволюцию жизни на Земле, в том числе вызвать вымирание динозавров.</li>
+                <li>Некоторые астероиды имеют собственные спутники и даже кольца.</li>
+                <li>Кометы могут быть источником органических молекул и воды для молодых планет.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Космические тела</p>
+    </footer>
+    <script src="../js/script-asteroids.js"></script>
+</body>
+</html>

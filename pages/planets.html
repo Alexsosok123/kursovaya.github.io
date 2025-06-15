@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планеты | Космические тела</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="planets">
+       <video id="bg-video" autoplay loop muted playsinline style="position:fixed;z-index:-1;left:0;top:0;width:100vw;height:100vh;object-fit:cover;"></video>
+    <header class="header">
+        <div class="header-inner">
+            <h1>Космические тела</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="planets.html" class="active">Планеты</a></li>
+                    <li><a href="stars.html">Звёзды</a></li>
+                    <li><a href="galaxies.html">Галактики</a></li>
+                    <li><a href="asteroids.html">Астероиды и кометы</a></li>
+                    <li><a href="satellites.html">Спутники</a></li>
+                    <li><a href="blackholes.html">Чёрные дыры</a></li>
+                    <li><a href="exploration.html">Космические исследования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Планеты Солнечной системы</h2>
+            <p>
+                В Солнечной системе восемь планет, каждая из которых уникальна по своему строению, атмосфере и истории. Планеты делятся на земные (Меркурий, Венера, Земля, Марс) и газовые гиганты (Юпитер, Сатурн, Уран, Нептун). Они отличаются размерами, составом, наличием колец и спутников, а также условиями на поверхности. Изучение планет помогает понять происхождение и эволюцию не только нашей системы, но и экзопланет во Вселенной.
+            </p>
+        </section>
+        <section>
+            <h2>Список планет</h2>
+            <div id="planets-list" class="flex-cards">
+                <div class="card-news planet-card" data-planet="mercury" tabindex="0">
+                    <img src="../img/18_mercury_new.png" alt="Меркурий" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Меркурий</div>
+                        <div class="card-news-desc">Ближайшая к Солнцу планета. Очень горячая днём и очень холодная ночью. Атмосфера практически отсутствует.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="venus" tabindex="0">
+                    <img src="../img/27_venus_jg.png" alt="Венера" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Венера</div>
+                        <div class="card-news-desc">Вторая планета от Солнца. Самая горячая в Солнечной системе из-за плотной атмосферы и парникового эффекта.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="earth" tabindex="0">
+                    <img src="../img/17_earth.png" alt="Земля" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Земля</div>
+                        <div class="card-news-desc">Наш дом. Единственная известная планета с жизнью и жидкой водой на поверхности.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="mars" tabindex="0">
+                    <img src="../img/19_mars.png" alt="Марс" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Марс</div>
+                        <div class="card-news-desc">"Красная планета". Известна своими пылевыми бурями и возможностью существования воды в прошлом.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="jupiter" tabindex="0">
+                    <img src="../img/16_jupiter_new.png" alt="Юпитер" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Юпитер</div>
+                        <div class="card-news-desc">Самая большая планета. Имеет мощную атмосферу и знаменитое Большое Красное Пятно.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="saturn" tabindex="0">
+                    <img src="../img/28_saturn.png" alt="Сатурн" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Сатурн</div>
+                        <div class="card-news-desc">Известен своими красивыми кольцами, состоящими из льда и камней.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="uranus" tabindex="0">
+                    <img src="../img/29_uranus.png" alt="Уран" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Уран</div>
+                        <div class="card-news-desc">Планета-гигант с голубоватым оттенком. Ось вращения сильно наклонена.</div>
+                    </div>
+                </div>
+                <div class="card-news planet-card" data-planet="neptune" tabindex="0">
+                    <img src="../img/30_neptune.png" alt="Нептун" class="card-img-cover">
+                    <div class="card-news-content">
+                        <div class="card-news-title">Нептун</div>
+                        <div class="card-news-desc">Самая дальняя планета. Известен сильнейшими ветрами в Солнечной системе.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-note">
+                <b>Земные планеты</b> — Меркурий, Венера, Земля и Марс. Это плотные тела с твёрдой поверхностью, небольшими размерами и тонкой атмосферой (или её отсутствием).<br>
+                <b>Газовые гиганты</b> — Юпитер и Сатурн. Огромные планеты, состоящие в основном из водорода и гелия, с мощными атмосферными вихрями и кольцами.<br>
+                <b>Ледяные гиганты</b> — Уран и Нептун. Их атмосферы богаты метаном, что придаёт голубой цвет, а внутреннее строение отличается от газовых гигантов.<br>
+                <b>Планеты-гиганты</b> имеют десятки спутников и сложные системы колец, а земные планеты — максимум один спутник (Земля) или вовсе без них.
+            </div>
+        </section>
+        <section>
+            <h2>Строение и атмосфера планет</h2>
+            <ul class="section-list">
+                <li><b>Меркурий</b> — самая маленькая и быстрая планета, почти не имеет атмосферы, поверхность покрыта кратерами.</li>
+                <li><b>Венера</b> — плотная атмосфера из углекислого газа, сильный парниковый эффект, температура выше, чем на Меркурии.</li>
+                <li><b>Земля</b> — единственная планета с кислородной атмосферой и жидкой водой, поддерживает жизнь.</li>
+                <li><b>Марс</b> — разреженная атмосфера, много железа в почве (красный цвет), есть полярные шапки и следы древних рек.</li>
+                <li><b>Юпитер</b> — самая большая планета, мощные штормы (Большое Красное Пятно), атмосфера из водорода и гелия.</li>
+                <li><b>Сатурн</b> — знаменит своими кольцами, атмосфера похожа на юпитерианскую, но менее плотная.</li>
+                <li><b>Уран</b> — вращается почти "на боку", атмосфера богата метаном, что придаёт голубой цвет.</li>
+                <li><b>Нептун</b> — самые сильные ветры в Солнечной системе, глубокий синий цвет из-за метана.</li>
+            </ul>
+        </section>
+        <section style="margin: 0;">
+            <h2>Интересные факты о планетах</h2>
+            <ul class="section-list">
+                <li>У Юпитера 95 известных спутников, больше, чем у любой другой планеты.</li>
+                <li>Сутки на Венере длиннее её года: она вращается вокруг своей оси медленнее, чем вокруг Солнца.</li>
+                <li>На Марсе самая высокая гора в Солнечной системе — Олимп (22 км).</li>
+                <li>Уран вращается "лежа на боку" — его ось наклонена почти на 98°.</li>
+                <li>У Сатурна самые яркие и протяжённые кольца, но кольца есть у всех гигантов.</li>
+                <li>Меркурий и Венера не имеют спутников, а у Земли только Луна.</li>
+                <li>Нептун был открыт не визуально, а математически — по возмущениям в орбите Урана.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Космические тела</p>
+    </footer>
+    <script src="../js/script-planets.js"></script>
+</body>
+</html>
